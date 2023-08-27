@@ -14,6 +14,7 @@ vi.) Target in mind to quantify success of the project
 ## overview
 This dataset gives us electronics sales data at Amazon. It contains user ratings for various electronics items sold, along with category of each item and time of sell.
 Link to Data [here](https://www.kaggle.com/datasets/edusanketdk/electronics)
+
 We will use Python libraries (Pandas, Numpy, Matplotlib & Seaborn) to analyse and answer business questions for sales data. The data contains hundreds of thousands of electronics store purchases broken down by month, product type, cost, purchase address, etc. The dataset can be downloaded [here](https://www.kaggle.com/datasets/edusanketdk/electronics?select=electronics.csv). In this analysis, we will be using Jupyter Notebook.
 ## Tools used
 To conduct the analysis i used Python 3, pandas through Jupyter Notebook
@@ -29,20 +30,26 @@ This is the process by which we shall critically perform initial investigations 
 To start with, we import libraries we are going to use. In this case being Pandas, Numpy, Matplotlib and Seaborn.
 Then we load the dataset as shown below.
 ![p1](https://github.com/Shruti461/Product_Sales_Analysis_With_Python/assets/142620672/3cace408-d9f8-4fff-ac85-34369186264d)
+
 To take a look of the first five rows we use the pandas function “ .head()”. Similarly “.tail()” returns last five observations of the data set.
 ![p2](https://github.com/Shruti461/Product_Sales_Analysis_With_Python/assets/142620672/61821aa9-2cd0-41dc-9f06-500aef6fd4ca)
+
 To know the total number of rows and columns in the data set we use “.shape” as shown below.
 ![p3](https://github.com/Shruti461/Product_Sales_Analysis_With_Python/assets/142620672/a2fc5572-bca6-4a30-87d4-fa35f7dc35e8)
 Dataset comprises of 1,292,954 observations and 10 characteristics.
 Out of which one is dependent variable and rest 9 are independent variables
+
 It is also a good practice to know the columns and their corresponding data types, along with finding whether they contain null values or not.
 ![p4](https://github.com/Shruti461/Product_Sales_Analysis_With_Python/assets/142620672/4f1111a4-6a6d-45cb-862d-93cbd21b74e7)
 No Variable column has null/missing values
 We can see that the dataset contains 5 columns and 10000 rows.
+
 To get a better understanding of the dataset, we can also see the statistical summary of the dataset using the function “.describe()”.
 ![p5](https://github.com/Shruti461/Product_Sales_Analysis_With_Python/assets/142620672/ed549151-5986-4685-9fc5-905547cdb468)
+
 We can also see the number of unique users and items in the dataset.
 ![p6](https://github.com/Shruti461/Product_Sales_Analysis_With_Python/assets/142620672/8288394f-a133-43bf-9ddd-4a7aaa565dcf)
+
 Some of the reasons are listed below:
 Past data might get corrupted due to improper maintenance.
 Observations are not recorded for certain fields due to some reasons. There might be a failure in recording the values due to human error.
