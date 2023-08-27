@@ -36,6 +36,7 @@ To take a look of the first five rows we use the pandas function “ .head()”.
 
 To know the total number of rows and columns in the data set we use “.shape” as shown below.
 ![p3](https://github.com/Shruti461/Product_Sales_Analysis_With_Python/assets/142620672/a2fc5572-bca6-4a30-87d4-fa35f7dc35e8)
+
 Dataset comprises of 1,292,954 observations and 10 characteristics.
 Out of which one is dependent variable and rest 9 are independent variables
 
