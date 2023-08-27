@@ -42,6 +42,7 @@ Out of which one is dependent variable and rest 9 are independent variables
 
 It is also a good practice to know the columns and their corresponding data types, along with finding whether they contain null values or not.
 ![p4](https://github.com/Shruti461/Product_Sales_Analysis_With_Python/assets/142620672/4f1111a4-6a6d-45cb-862d-93cbd21b74e7)
+
 No Variable column has null/missing values
 We can see that the dataset contains 5 columns and 10000 rows.
 
