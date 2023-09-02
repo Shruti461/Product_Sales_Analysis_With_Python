@@ -58,6 +58,8 @@ Observations are not recorded for certain fields due to some reasons. There migh
 The user has not provided the values intentionally.
 Dealing With Missing Values
 There can be multiple reasons why certain values are missing from the data
+
+
 ![p7](https://github.com/Shruti461/Product_Sales_Analysis_With_Python/assets/142620672/8837d410-f71a-4900-b611-d0ca9edebaca)
 
 
